@@ -49,8 +49,8 @@
   - `<header>`>div.inner => section.inner
   - `<main>`>div.container => section.container
 - `<section>` 태그를 문맥을 살리기 위해 `<article>` 태그로 수정
-  - `<main>`>section.main**notice => article.main**notice
+  - `<main>`>section.main\_\_notice => article.main\_\_notice
 - `main.service__img`에 hover event가 발생할 시 main_icon_hover.png로 변경
   - 개발자도구 > Sources탭 참고
 - SCSS의 `@mixin` 기능으로 말줄임표 추가
-  - `<main>` .news**contents span.contents**title--ellipsis
+  - `<main>` .news\_\_contents span.contents\_\_title--ellipsis
